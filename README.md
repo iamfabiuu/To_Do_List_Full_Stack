@@ -64,14 +64,12 @@ TO_DO_LIST_FULL/
 
 ⚙️ Como instalar as dependências
 1. Clone o repositório
-bash
 ```
 git clone https://github.com/SEU-USUARIO/to-do-list-full.git
 cd to-do-list-full
 ```
 
 2. Instale as dependências do back-end
-bash
 ```
 cd todo_backend
 npm install
@@ -110,11 +108,11 @@ A aplicação abrirá automaticamente em: 📍 http://localhost:5173
 Rotas da API
 
 Método	Rota	Descrição
-GET	/tarefas	Lista todas as tarefas
-GET	/tarefas/:id	Busca uma tarefa pelo ID
-POST	/tarefas	Cria uma nova tarefa
-PUT	/tarefas/:id	Atualiza uma tarefa (parcial)
-DELETE	/tarefas/:id	Remove uma tarefa
+GET	/tarefas	Lista todas as tarefas</br>
+GET	/tarefas/:id	Busca uma tarefa pelo ID</br>
+POST	/tarefas	Cria uma nova tarefa</br>
+PUT	/tarefas/:id	Atualiza uma tarefa (parcial)</br>
+DELETE	/tarefas/:id	Remove uma tarefa</br>
 Exemplo de requisição (POST)
 json
 ```

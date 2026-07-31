@@ -65,23 +65,23 @@ TO_DO_LIST_FULL/
 ⚙️ Como instalar as dependências
 1. Clone o repositório
 bash
-
-
+```
 git clone https://github.com/SEU-USUARIO/to-do-list-full.git
 cd to-do-list-full
+```
+
 2. Instale as dependências do back-end
 bash
-
-
+```
 cd todo_backend
 npm install
-
+```
 3. Instale as dependências do front-end
 bash
-
-
+```
 cd ../todo-frontend-react
 npm install
+```
 
 ▶️ Como executar o projeto localmente
 Você precisa rodar o back-end e o front-end ao mesmo tempo (em terminais separados).
@@ -91,24 +91,23 @@ Você precisa rodar o back-end e o front-end ao mesmo tempo (em terminais separa
 ```bash
 cd todo_backend
 npm start
-
+```
 O servidor será iniciado em: 📍 http://localhost:3000
 
 2. Executando o front-end
 Em outro terminal:
 
 bash
-
-
+```
 cd todo-frontend-react
 npm run dev
+```
+
 A aplicação abrirá automaticamente em: 📍 http://localhost:5173
 
 ⚠️ Certifique-se de que o back-end esteja rodando antes de abrir o front-end, para que as requisições funcionem corretamente.
 
 Rotas da API
-
-
 
 Método	Rota	Descrição
 GET	/tarefas	Lista todas as tarefas
@@ -118,22 +117,22 @@ PUT	/tarefas/:id	Atualiza uma tarefa (parcial)
 DELETE	/tarefas/:id	Remove uma tarefa
 Exemplo de requisição (POST)
 json
-
-
+```
 {
   "descricao": "Estudar Node.js",
   "concluida": false
 }
+```
 Exemplo de resposta
 json
-
-
+```
 {
   "id": "a1b2c3d4-e5f6-7890-g1h2-i3j4k5l6m7n8",
   "descricao": "Estudar Node.js",
   "concluida": false,
   "criadaEm": "2026-07-31T03:00:00.000Z"
 }
+```
 
  Melhorias futuras
  Persistência com banco de dados (MongoDB/PostgreSQL)
@@ -141,6 +140,7 @@ json
  Filtros por status (pendentes/concluídas)
  Ordenação e busca por texto
  Testes automatizados (Jest + Supertest)
+
 
 👨‍💻 Autor
 Feito por Fábio Araújo Silva

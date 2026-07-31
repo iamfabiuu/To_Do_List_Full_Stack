@@ -60,6 +60,7 @@ TO_DO_LIST_FULL/
 │   ├── package.json
 │   └── package-lock.json
 └── README.md
+```
 
 ⚙️ Como instalar as dependências
 1. Clone o repositório

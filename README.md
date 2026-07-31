@@ -1,6 +1,6 @@
 # ✅ To Do List — Full Stack
 
-> Uma aplicação completa de lista de tarefas, com **API RESTful em Node.js/Express** no back-end e uma interface moderna em **React (Vite)** no front-end. Organize suas tarefas, marque como concluídas e nunca mais esqueça nada! 🧠✨
+> Uma aplicação completa de lista de tarefas, com **API RESTful em Node.js/Express** no back-end e uma interface moderna em **React (Vite)** no front-end. Organize suas tarefas, marque como concluídas e nunca mais esqueça nada!
 
 ---
 
@@ -8,8 +8,8 @@
 
 O **To Do List Full Stack** é um sistema de gerenciamento de tarefas dividido em duas partes que trabalham juntas:
 
-- 🔧 **Back-end (Express):** API REST responsável por criar, listar, atualizar e excluir tarefas, com validações e persistência em memória.
-- 🎨 **Front-end (React):** Interface visual intuitiva e responsiva, onde o usuário adiciona, edita, marca como concluída e remove tarefas em tempo real.
+- **Back-end (Express):** API REST responsável por criar, listar, atualizar e excluir tarefas, com validações e persistência em memória.
+- **Front-end (React):** Interface visual intuitiva e responsiva, onde o usuário adiciona, edita, marca como concluída e remove tarefas em tempo real.
 
 O objetivo é praticar/demonstrar uma arquitetura **Full Stack** simples e funcional, com boas práticas de API (status HTTP corretos, validações, respostas em JSON) e uma UI limpa e agradável.
 
@@ -60,6 +60,7 @@ TO_DO_LIST_FULL/
 │   ├── package.json
 │   └── package-lock.json
 └── README.md
+
 ⚙️ Como instalar as dependências
 1. Clone o repositório
 bash
@@ -73,16 +74,18 @@ bash
 
 cd todo_backend
 npm install
+
 3. Instale as dependências do front-end
 bash
 
 
 cd ../todo-frontend-react
 npm install
+
 ▶️ Como executar o projeto localmente
 Você precisa rodar o back-end e o front-end ao mesmo tempo (em terminais separados).
 
-### 🔧 1. Executando o back-end
+### 1. Executando o back-end
 
 ```bash
 cd todo_backend
@@ -90,7 +93,7 @@ npm start
 
 O servidor será iniciado em: 📍 http://localhost:3000
 
-🎨 2. Executando o front-end
+2. Executando o front-end
 Em outro terminal:
 
 bash
@@ -102,7 +105,7 @@ A aplicação abrirá automaticamente em: 📍 http://localhost:5173
 
 ⚠️ Certifique-se de que o back-end esteja rodando antes de abrir o front-end, para que as requisições funcionem corretamente.
 
-📡 Rotas da API
+Rotas da API
 
 
 
@@ -130,11 +133,13 @@ json
   "concluida": false,
   "criadaEm": "2026-07-31T03:00:00.000Z"
 }
-💡 Melhorias futuras
+
+ Melhorias futuras
  Persistência com banco de dados (MongoDB/PostgreSQL)
  Autenticação de usuários
  Filtros por status (pendentes/concluídas)
  Ordenação e busca por texto
  Testes automatizados (Jest + Supertest)
+
 👨‍💻 Autor
-Feito com 💙 por Fábio
+Feito por Fábio Araújo Silva

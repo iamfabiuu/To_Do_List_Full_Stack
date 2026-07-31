@@ -111,7 +111,7 @@ GET	/tarefas/:id	Busca uma tarefa pelo ID</br>
 POST	/tarefas	Cria uma nova tarefa</br>
 PUT	/tarefas/:id	Atualiza uma tarefa (parcial)</br>
 DELETE	/tarefas/:id	Remove uma tarefa</br>
-Exemplo de requisição (POST)
+</br>Exemplo de requisição (POST)
 json</br>
 ```
 {
@@ -119,7 +119,7 @@ json</br>
   "concluida": false
 }
 ```
-Exemplo de resposta
+</br>Exemplo de resposta
 json</br>
 ```
 {
@@ -130,7 +130,7 @@ json</br>
 }
 ```
 
- Melhorias futuras</br>
+ Melhorias futuras</br></br>
  Persistência com banco de dados (MongoDB/PostgreSQL)</br>
  Autenticação de usuários</br>
  Filtros por status (pendentes/concluídas)</br>
@@ -138,5 +138,5 @@ json</br>
  Testes automatizados (Jest + Supertest)</br></br>
 
 
-👨‍💻 Autor
+👨‍💻 Autor</br>
 Feito por Fábio Araújo Silva

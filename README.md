@@ -85,17 +85,15 @@ npm install
 Você precisa rodar o back-end e o front-end ao mesmo tempo (em terminais separados).
 
 ### 1. Executando o back-end
-
-```bash
+```
 cd todo_backend
 npm start
 ```
 O servidor será iniciado em: 📍 http://localhost:3000
 
-2. Executando o front-end
+### 2. Executando o front-end
 Em outro terminal:
-
-bash
+</br>
 ```
 cd todo-frontend-react
 npm run dev
@@ -114,7 +112,7 @@ POST	/tarefas	Cria uma nova tarefa</br>
 PUT	/tarefas/:id	Atualiza uma tarefa (parcial)</br>
 DELETE	/tarefas/:id	Remove uma tarefa</br>
 Exemplo de requisição (POST)
-json
+json</br>
 ```
 {
   "descricao": "Estudar Node.js",
@@ -122,7 +120,7 @@ json
 }
 ```
 Exemplo de resposta
-json
+json</br>
 ```
 {
   "id": "a1b2c3d4-e5f6-7890-g1h2-i3j4k5l6m7n8",
@@ -132,12 +130,12 @@ json
 }
 ```
 
- Melhorias futuras
- Persistência com banco de dados (MongoDB/PostgreSQL)
- Autenticação de usuários
- Filtros por status (pendentes/concluídas)
- Ordenação e busca por texto
- Testes automatizados (Jest + Supertest)
+ Melhorias futuras</br>
+ Persistência com banco de dados (MongoDB/PostgreSQL)</br>
+ Autenticação de usuários</br>
+ Filtros por status (pendentes/concluídas)</br>
+ Ordenação e busca por texto</br>
+ Testes automatizados (Jest + Supertest)</br></br>
 
 
 👨‍💻 Autor

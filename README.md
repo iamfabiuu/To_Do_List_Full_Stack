@@ -83,7 +83,7 @@ npm install
 </br>
 ▶️ Como executar o projeto localmente</br>
 Você precisa rodar o back-end e o front-end ao mesmo tempo (em terminais separados).
-</br>
+
 ### 1. Executando o back-end
 ```
 cd todo_backend
